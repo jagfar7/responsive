@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #027bfc;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+    background-color: #194980;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(120deg, #023d7d, #01152b);
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Product Carousel */
+  .product-carousel {
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-title {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-price {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background: #002246;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background: #011326;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+  }
+  
+  .footer a {
+    color: #007bff;
+    margin: 0 5px;
+  }
+  

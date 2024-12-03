@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Product Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><img src="https://dynamic.design.com/asset/logo/46d860e2-e077-4bcf-84e1-e52b718ddbc5/logo-search-grid-1x?logoTemplateVersion=2&v=638371306461600000&text=store+cart" alt="Store Cart" width="150px" height="130px"></div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li class="dropdown">
+        <a href="#">Categories ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Home Appliances </a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Cosmetics</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Welcome to Our Product Store</h1>
+    <p>Discover the best products tailored for your needs</p>
+  </header>
+
+  <!-- Product Carousel -->
+  <section class="product-carousel">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Product Card -->
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="data:image/jpeg;base64,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" alt="Product 1" class="product-image" />
+            <h3 class="product-title">Foundation</h3>
+            <p class="product-price">$49.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Repeat for other products -->
+        <div class="swiper-slide">
+          <div class="product-card">
+            <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/dslr-camera/r/f/k/z-50-20-9-z-50-nikon-original-imah3g87339tyurz.jpeg?q=70" alt="Product 2" class="product-image" />
+            <h3 class="product-title">Cammara</h3>
+            <p class="product-price">$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Repeat for other products -->
+        <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/washing-machine-new/7/k/e/7-480-p7020ngaz-5-0-0133-805-27-lg-980-original-imah642bexhsykqd.jpeg?q=70" alt="Product 2" class="product-image" />
+              <h3 class="product-title">Washing Machine</h3>
+              <p class="product-price">$69.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+           <!-- Repeat for other products -->
+        <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/iron/o/5/e/dazzle-havells-original-imagnx2dhpy6e6ub.jpeg?q=70" alt="Product 2" class="product-image" />
+              <h3 class="product-title">Iron Box</h3>
+              <p class="product-price">$19.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+           <!-- Repeat for other products -->
+        <div class="swiper-slide">
+            <div class="product-card">
+              <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/helmet/6/l/s/-original-imah2vupfzbxkhhe.jpeg?q=70" alt="Product 2" class="product-image" />
+              <h3 class="product-title">Helmet</h3>
+              <p class="product-price">$29.99</p>
+              <button class="add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+      </div>
+      <!-- Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 BrandName. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
